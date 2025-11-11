@@ -23,7 +23,7 @@ public class BaseTest {
 		driver.manage().window().maximize();
 		sUtils = new ScreenShotUtils(driver);
 		driver.get(ConfigReader.get("url"));
-		System.out.println("teset------");
+		System.out.println("teset------88");
 		
 	}
 	
