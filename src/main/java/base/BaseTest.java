@@ -24,6 +24,8 @@ public class BaseTest {
 		sUtils = new ScreenShotUtils(driver);
 		driver.get(ConfigReader.get("url"));
 		System.out.println("teset-33");
+		System.out.println("teset------88");
+
 		
 	}
 	
