@@ -20,7 +20,7 @@ public class LoginTest extends BaseTest{
 		
 		LoginPage loginPage = new LoginPage(driver);
 		
-		Log.info("after login page");
+		Log.info("after login page--featuer/login-1st change");
 		DashBoardPage dash = new DashBoardPage(driver);
 		
 		
