@@ -35,8 +35,8 @@ public class LoginPage {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		WebElement username = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("username")));
 		username.sendKeys(user);
-		WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement passw = wait1.until(ExpectedConditions.visibilityOfElementLocated(By.name("password")));
+		//WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement passw = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("password")));
         passw.sendKeys(pass);
         driver.findElement(loginBut).click();
         Log.info("after reading all locators");

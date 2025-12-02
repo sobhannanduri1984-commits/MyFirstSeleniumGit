@@ -16,7 +16,7 @@ public class LoginTest extends BaseTest{
 	public void loginAndLogoutTest() {
 		
 		ExtentManager.test = ExtentManager.getReportsInstance().createTest("Verify login and logout");
-		Log.info("after extend manager");
+		Log.info("after extend manager -- changed in Main");
 		
 		LoginPage loginPage = new LoginPage(driver);
 		
